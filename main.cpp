@@ -12,7 +12,6 @@ float S_rectangle(float a, float b) {
 int main() {
     setlocale(LC_ALL, "RUS");
     float a, b;
-    cin >> a >> b;
     int sum = P_rectangle(a, b);
     int multiplication = S_rectangle(a, b);
     cout << "Периметр прямоугольника: " << sum << endl;
